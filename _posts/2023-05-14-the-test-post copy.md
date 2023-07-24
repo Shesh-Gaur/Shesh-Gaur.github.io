@@ -7,7 +7,7 @@ startDate: 05/14/2023
 endDate: 06/27/2023
 engine: "Unreal Engine 5"
 teamSize: "4" 
-tags: [Student Project, Commercial Project]
+tags: [Student, Commercial]
 permalink: /:title
 ---
 

@@ -4,11 +4,15 @@ layout: "wrapper"
 <h1>{{page.title}}</h1>
 <div class="background" style="  background-image: url('{{page.image}}');">
 </div>
+
 {% for tag in page.tags %} 
-<div class="pill">    
+<a href="/my-work.html">
+<button type="button" class="pill" id={{tag}} onclick="tagClick(this)">    
 <center><i>{{tag}}</i></center>
-</div>
+</button>
+</a>
 {% endfor %}
+
 <hr style="clear: both;">
 <img src= {{page.image}} alt="image" style="width:100%">
 <p>🙍{{page.roles}}</p>
@@ -17,3 +21,5 @@ layout: "wrapper"
 <p>👥{{page.teamSize}}</p>
 <hr>
 {{ content }}
+
+<script src="/filtering.js"></script> 

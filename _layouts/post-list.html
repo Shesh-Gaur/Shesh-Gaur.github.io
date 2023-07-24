@@ -3,27 +3,33 @@ layout: "wrapper"
 ---
 
 <h1>📄Posts</h1>
-<hr>
+
+<i><h3  style="float: left; margin-top: 5px; margin-left: 10px;">Filter By: &nbsp;</h3></i>
+<div id="taglist"></div>
+
+<hr style="clear:both;">
 {{ content }}
 {% for post in site.posts %}
 {% if post.layout == "post" %}
 
 <a href = "{{post.url}}" >  
     <style> a { text-decoration: none; } a {color: #000000;}</style>
-<div class="polaroid2">    
+<div class="polaroid2" name="taggableitem">    
     <img src= {{post.image}} class="post" alt="image">
     
     <div class="postcontainer">
         <h3 style="margin-bottom: 0%";>{{post.title}}</h3>
         <p style="float: left; margin-top: 1%;">🗓️{{ post.date | date_to_string: "ordinal", "US" }} &nbsp;</p>
         
-        {% for tag in post.tags %} 
-        <div class="pill" style="margin-top: 0.5%;">    
-        <i>{{tag}}</i>
-        </div>
+        {% for tag in post.tags %}  
+        <button class="pill" id={{tag}} style="margin-top: 0.5%; pointer-events: none;">    
+            <i>{{tag}}</i>
+        </button>
         {% endfor %}
+
     
     </div>
+    <script src="/filtering.js"></script>
 </div>
 </a>
 {% endif %}

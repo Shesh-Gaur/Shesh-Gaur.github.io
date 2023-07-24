@@ -7,7 +7,7 @@ startDate: 06/22/2023
 endDate: 09/07/2023
 engine: "Unity"
 teamSize: "1"
-tags: [Personal Project]
+tags: [Personal, Commercial]
 permalink: /:title
 ---
 
