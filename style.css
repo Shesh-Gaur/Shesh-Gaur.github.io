@@ -55,11 +55,25 @@
     padding: 0px 10px;
   }
   
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  } 
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidenav  {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+  }
+  .sidenav  a {float: left;}
+  div.content {margin-left: 0;}
+
+  .main {
+    margin-left: 0px; /* Same as the width of the sidebar */
+    margin-top: 0px; /* Same as the width of the sidebar */
+    padding: 0px 0px;
+  }
+
+  .background{visibility: hidden;}
+}
 
   img {
     display: block;
@@ -67,9 +81,11 @@
     margin-right: auto;
     width: 100%;
     height: auto;
+    
   }
 
   div.polaroid {
+    animation: fadeIn ease 0.5s;
     width: 30%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -89,6 +105,7 @@
   }
 
   div.polaroid2 {
+    animation: fadeIn ease 0.5s;
     width: 95%;
     height: fit-content;
     background-color: white;
@@ -117,6 +134,20 @@
     margin: 10px;
     width: 15%;
     height: 100%;
+    object-fit: cover;
+    display: flexbox;
+    float: left;
+    overflow: auto;
+    text-align: left;
+  }
+
+  img.postcover  { 
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    width: 50%;
+    height: 35%;
     object-fit: cover;
     display: flexbox;
     float: left;
@@ -199,8 +230,6 @@
 
  .background{
   /* The image used */
-
-  
   /* Full height */
   height: 100%; 
   width: 300px;
@@ -383,4 +412,14 @@
     color: #999;
     background-color: #EAF2F5;
   }
+}
+
+ iframe{
+  animation: fadeIn ease 1.5s;
+
+ }
+
+@keyframes fadeIn {
+  0% {opacity:0; margin-top: 0in;}
+  100% {opacity:1; }
 }

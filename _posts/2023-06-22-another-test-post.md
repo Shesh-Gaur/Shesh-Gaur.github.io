@@ -10,6 +10,25 @@ teamSize: "1"
 tags: [Personal, Commercial]
 permalink: /:title
 ---
+<!-- <nav>
+        <ul>
+            <li><a href="#section1" target="_parent">First Section</a></li>
+            <li><a href="#section2" target="_parent">Second Section</a></li>
+            ...more...
+        </ul>
+</nav>
+
+<div>
+        <section id="section1">
+            <h1>First Section</h1>
+            <p>...more...</p>
+        </section>
+        <section id="section2">
+            <h1>Second Section</h1>
+            <p>...more...</p>
+        </section>
+        ...more...
+ </div> -->
 
 <h2>This is a Heading</h2>
 

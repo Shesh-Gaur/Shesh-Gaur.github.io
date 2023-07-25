@@ -1,6 +1,7 @@
 
 var filterTags = new Array();
 let posts = document.getElementsByName("taggableitem");
+
 window.onbeforeunload = function leavePage()
 {
     localStorage.setItem("savedTags", filterTags); 
