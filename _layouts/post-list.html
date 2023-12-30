@@ -19,7 +19,7 @@ layout: "wrapper"
     
     <div class="postcontainer">
         <h3 style="margin-bottom: 0%";>{{post.title}}</h3>
-        <p style="float: left; margin-top: 1%;">🗓️{{ post.date | date_to_string: "ordinal", "US" }} &nbsp;</p>
+        <p style="margin-top: 1%;">🗓️{{ post.date | date_to_string: "ordinal", "US" }} &nbsp;</p>
         
         {% for tag in post.tags %}  
         <button class="pill" id={{tag}} style="margin-top: 0.5%; pointer-events: none;">    

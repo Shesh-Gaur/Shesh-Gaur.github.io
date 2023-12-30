@@ -7,11 +7,14 @@
     <img src ="/assets/profilePic.jpg" style="border-radius: 50%; width: 70%; margin-left: 10%;"> 
     <h2 style="color: #ffffff; margin-left: 10%; margin-bottom: 1%;">{{site.title}}</h2>
     <p style="color: #dcdcdc; margin-left: 10%; margin-top: 0%;">I Make Stuff.</p>
+    &nbsp;
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for post in sorted_pages %}
-    <b>
-    <a style ="{% if page.url == post.url %}color: #52ffc8;{% endif %}" href = "{{post.url}}" > {{post.title}}</a>
-</b>
+        {% if post.order >= 0 %}
+        <b>
+        <a style ="{% if page.url == post.url %}color: #52ffc8;{% endif %}" href = "{{post.url}}" > {{post.title}}</a>
+        </b>
+        {% endif %}
     {% endfor %}
     <div class="sidebar-footer">
     <div class= "sidebar-icon">

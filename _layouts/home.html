@@ -1,4 +1,88 @@
-<head>
+---
+layout: "wrapper"
+---
+<h1>&#127968; Home</h1>
+<hr> 
+<div class="polaroid3">
+    <img src ="/assets/profilePic.jpg" style="border-radius: 50%; width: auto; margin-left: 2%;" class="post"> 
+   <div class="postcontainer">
+    <h1 class="textCrawl"><em>
+        <span>Hey,</span>
+        <span> I'm</span> 
+        <span><b style="color: #319172;"> Shesh Gaur</b></span>
+    </em></h1>
+    <h3 class="textCrawl2"><span>
+     I'm a blah blah blah blah blah blah 
+    blah blah blah blah blah blah blah blah blah
+    I'm a blah blah blah blah blah blah
+    blah blah blah blah blah blah blah blah blah
+    I'm a blah blah blah blah blah blah
+    blah blah blah blah blah blah blah blah blah
+    </span></h3>
+    </div>
+</div>
+
+<!-- Project List -->
+<hr style="clear:both;">
+<h1>Featured Projects</h1>
+{% for post in site.posts %} 
+{% if post.layout == "project" %}
+
+<a href = "{{post.url}}" >  
+<style> a { text-decoration: none; } a {color: #000000;}</style>
+<div class="polaroid" name="taggableitem">    
+    <img src= {{post.image}} alt="image" style="width:100%">
+    
+    <div class="container">
+        <center><h3>{{post.title}}</h3></center> 
+        <p>🙍 {{post.roles}}</p>
+        <p>🗓️ {{post.startDate}} - {{post.endDate}}</p>
+        <p>🖥️ {{post.engine}}</p>
+        <p>👥 {{post.teamSize}}</p>
+
+        {% for tag in post.tags %} 
+        <div class="pill" id={{tag}}  style="pointer-events: none;">    
+        <center><i>{{tag}}</i></center>  
+        </div>
+        {% endfor %}
+    </div>
+</div>
+</a>
+{% endif %}
+{% endfor %}
+
+
+<!-- Post List -->
+<hr style="clear:both;">
+<h1>Featured Posts</h1>
+
+{% for post in site.posts %}
+{% if post.layout == "post" %}
+
+<a href = "{{post.url}}" >  
+    <style> a { text-decoration: none; } a {color: #000000;}</style>
+<div class="polaroid2" name="taggableitem">    
+    <img src= {{post.image}} class="post" alt="image">
+    
+    <div class="postcontainer">
+        <h3 style="margin-bottom: 0%";>{{post.title}}</h3>
+        <p style="margin-top: 1%;">🗓️{{ post.date | date_to_string: "ordinal", "US" }} &nbsp;</p>
+        
+        {% for tag in post.tags %}  
+        <button class="pill" id={{tag}} style="margin-top: 0.5%; pointer-events: none;">    
+            <i>{{tag}}</i>
+        </button>
+        {% endfor %}
+
+    
+    </div>
+</div>
+</a>
+{% endif %}
+{% endfor %}
+
+<!-- Boid Stuff -->
+<!-- <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +91,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 </html> 
+
+<body style="overflow: hidden; display: block;" onload="startGame()"></body>
+<script src="/flocking.js" type="module"></script>    -->
+
+<!-- Experimental Stuff -->
 <!-- <body style="background-color:#000000"></body>
 <model-viewer shadow-intensity="0" interaction-prompt="none"auto-rotate-delay="0" orbit-sensitivity = "1" auto-rotate disable-tap disable-pan disable-zoom camera-controls touch-action="none" src="assets/SHESHFACERETOPO.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/SHESHFACERETOPO.glb" style="width:100%; height:80%; margin: 0%; overflow: hidden;"></model-viewer>
 
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script> -->
-
-<body style="overflow: hidden; display: block;" onload="startGame()"></body>
-<script src="/flocking.js" type="module"></script>   

@@ -1,7 +1,7 @@
 
 * {
   font-size: 100%;
-  font-family: Arial;
+  font-family: monospace;
   box-sizing: border-box;
  } 
 
@@ -86,7 +86,7 @@
 
   div.polaroid {
     animation: fadeIn ease 0.5s;
-    width: 30%;
+    width: 400px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 25px;
@@ -101,7 +101,7 @@
   div.container {
     text-align: left;
     padding: 10px 20px;
-    font-size: 1cqw;
+    font-size: 18px;
   }
 
   div.polaroid2 {
@@ -121,10 +121,20 @@
     background-color: rgb(247, 247, 247);
   }
 
+  div.polaroid3 {
+    animation: fadeIn ease 0.5s;
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+    float: left
+  }
+
   div.postcontainer {
     text-align: left;
     padding: 0% 2%;
-    font-size: 1cqw;
+    font-size: 16px;
     display: flexbox;
     overflow: auto;
     text-align: left;
@@ -132,7 +142,7 @@
 
   img.post  { 
     margin: 10px;
-    width: 15%;
+    width: 250px;
     height: 100%;
     object-fit: cover;
     display: flexbox;
@@ -208,7 +218,7 @@
   }
   
   p a:active {
-    background: #52ffc8;
+    background: hsl(161, 100%, 66%);
     color: #ffffff;
   } 
 
@@ -422,4 +432,43 @@
 @keyframes fadeIn {
   0% {opacity:0; margin-top: 0in;}
   100% {opacity:1; }
+}
+
+.textCrawl span{
+  opacity: 0;
+  transform: translateY(30px);
+  animation: textCrawl 0.5s ease-out forwards;
+  display:inline-block;
+}
+
+.textCrawl2 span{
+  opacity: 0;
+  transform: translateY(30px);
+  animation: textCrawl 0.5s ease-out forwards;
+  display:inline-block;
+  animation-delay: 1.2s;
+}
+
+.textCrawl3 span{
+  opacity: 0;
+  transform: translateY(30px);
+  animation: textCrawl 0.5s ease-out forwards;
+  display:inline-block;
+  animation-delay: 1.5s;
+}
+
+
+.textCrawl span:nth-of-type(2){
+  animation-delay: 0.5s;
+}
+
+.textCrawl span:nth-of-type(3){
+  animation-delay: 0.8s;
+}
+
+@keyframes textCrawl{
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
