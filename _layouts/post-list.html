@@ -2,12 +2,14 @@
 layout: "wrapper"
 ---
 
-<h1>📄Posts</h1>
+<h1><i class="fa-solid fa-newspaper" style="font-size:35px; margin-left: 10px; color: teal"></i> Posts</h1>
 
 <i><h3  style="float: left; margin-top: 5px; margin-left: 10px;">Filter By: &nbsp;</h3></i>
 <div id="taglist"></div>
 
 <hr style="clear:both;">
+<div class="pagefooter">
+<div style="margin-top: 25px;"></div>
 {{ content }}
 {% for post in site.posts %}
 {% if post.layout == "post" %}
@@ -19,7 +21,7 @@ layout: "wrapper"
     
     <div class="postcontainer">
         <h3 style="margin-bottom: 0%";>{{post.title}}</h3>
-        <p style="margin-top: 1%;">🗓️{{ post.date | date_to_string: "ordinal", "US" }} &nbsp;</p>
+        <p style="margin-top: 1%;"><i class="fa-solid fa-calendar-days" style="font-size:20px; margin-left: 4px; color: teal;"></i> {{ post.date | date_to_string: "ordinal", "US" }} &nbsp;</p>
         
         {% for tag in post.tags %}  
         <button class="pill" id={{tag}} style="margin-top: 0.5%; pointer-events: none;">    
@@ -33,3 +35,4 @@ layout: "wrapper"
 </a>
 {% endif %}
 {% endfor %}
+</div>

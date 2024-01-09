@@ -2,7 +2,7 @@
 layout: "wrapper"
 ---
 
-<h1>📖My Work</h1>
+<h1><i class="fa-solid fa-book-open" style="font-size:35px; margin-left: 10px; color: teal"></i> My Work</h1>
 <i><h3  style="float: left; margin-top: 5px; margin-left: 10px;">Filter By: &nbsp;</h3></i>
 <div id="taglist"></div>
 <!-- <button class="pill" type="button" onclick="tagClick(this)"> </button>; -->
@@ -20,13 +20,14 @@ layout: "wrapper"
     
     <div class="container">
         <center><h3>{{post.title}}</h3></center> 
-        <p>🙍 {{post.roles}}</p>
-        <p>🗓️ {{post.startDate}} - {{post.endDate}}</p>
-        <p>🖥️ {{post.engine}}</p>
-        <p>👥 {{post.teamSize}}</p>
+        <center><h4 style="margin-top: -20px;""><i>{{post.organization}}</i></h4></center> 
+        <p style="clear: both;"><i class="fa-solid fa-user" style="font-size:20px; margin-left: 4px; color: teal;"></i> {{post.roles}}</p>
+        <p><i class="fa-solid fa-calendar-days" style="font-size:20px; margin-left: 4px; color: teal;"></i> {{post.startDate}} - {{post.endDate}}</p>
+        <p><i class="fa-solid fa-screwdriver-wrench" style="font-size:20px; margin-left: 4px; color: teal;"></i> {{post.engine}}</p>
+        <p><i class="fa-solid fa-people-group" style="font-size:20px; margin-left: 4px; color: teal;"></i> {{post.teamSize}}</p>
 
         {% for tag in post.tags %} 
-        <div class="pill" id={{tag}}  style="pointer-events: none;">    
+        <div class="pill" id={{tag}}  style="pointer-events: none; color: #000000;">    
         <center><i>{{tag}}</i></center>  
         </div>
         {% endfor %}
@@ -40,3 +41,6 @@ layout: "wrapper"
 
 {% endif %}
 {% endfor %}
+&nbsp;
+<hr style="clear:both;">
+<center><h2><i>[Under Construction, More Projects To Be Added Soon]</i></h2></center>

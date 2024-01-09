@@ -1,35 +1,38 @@
 
 
-<div class="background" style="  background-image: url('/assets/test3.png');">
+<div class="background" style="  background-image: url('/assets/ClockworkVoid.png');">
 </div>
 
 <div class="sidenav">
-    <img src ="/assets/profilePic.jpg" style="border-radius: 50%; width: 70%; margin-left: 10%;"> 
-    <h2 style="color: #ffffff; margin-left: 10%; margin-bottom: 1%;">{{site.title}}</h2>
-    <p style="color: #dcdcdc; margin-left: 10%; margin-top: 0%;">I Make Stuff.</p>
-    &nbsp;
-    {% assign sorted_pages = site.pages | sort:"order" %}
-    {% for post in sorted_pages %}
-        {% if post.order >= 0 %}
-        <b>
-        <a style ="{% if page.url == post.url %}color: #52ffc8;{% endif %}" href = "{{post.url}}" > {{post.title}}</a>
-        </b>
-        {% endif %}
-    {% endfor %}
-    <div class="sidebar-footer">
-    <div class= "sidebar-icon">
-        <a href="https://shesh-gaur.itch.io" target="_blank"><i class="fa-brands fa-itch-io"></i></a>
-    </div>
-    <div class= "sidebar-icon">
-        <a href="https://github.com/Shesh-Gaur" target="_blank"><i class="fa-brands fa-github"></i></a>
-    </div>
-    <div class= "sidebar-icon"> 
-        <a href="https://www.linkedin.com/in/shesh-gaur/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-    </div>
-    <div class= "sidebar-icon">
-        <a href="https://twitter.com/Shesh_Gaur" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-    </div>   
 
-    </div>  
+    <img src ="/assets/profilePic.jpg" style="border-radius: 50%; width: 70%; margin-left: 40px;"> 
+    <div style="text-align: center; margin-left: -40px; bottom: 5%;">
+        <h2 style="color: #ffffff; margin-left: 10%; margin-bottom: 1%;">{{site.title}}</h2>
+        <p style="color: #dcdcdc; margin-left: 10%; margin-top: 0%;">I Make Stuff.</p>
+        &nbsp;
+    </div>
+        {% assign sorted_pages = site.pages | sort:"order" %}
+        {% for post in sorted_pages %}
+            {% if post.order >= 0 %}
+            <b>
+            <a style ="{% if page.url == post.url %}  color: rgb(6, 215, 215);";{% endif %};" href = "{{post.url}}" > {{post.title}}</a>
+            </b>
+            {% endif %}
+        {% endfor %}
+        <div class="sidebar-footer">
+            <div class= "sidebar-icon">
+                <a href="https://shesh-gaur.itch.io" target="_blank"><i class="fa-brands fa-itch-io"></i></a>
+            </div>
+            <div class= "sidebar-icon">
+                <a href="https://github.com/Shesh-Gaur" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class= "sidebar-icon"> 
+                <a href="https://www.linkedin.com/in/shesh-gaur/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class= "sidebar-icon">
+                <a href="https://twitter.com/Shesh_Gaur" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>   
+        </div>  
+    
 </div>
 

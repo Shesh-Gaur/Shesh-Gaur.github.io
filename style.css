@@ -1,6 +1,6 @@
 
 * {
-  font-size: 100%;
+  font-size: 105%;
   font-family: monospace;
   box-sizing: border-box;
  } 
@@ -32,13 +32,14 @@
     backdrop-filter: blur(5px);
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+    font-size: 15px;
   }
   
   /* The navigation menu links */
   .sidenav a {
     padding: 6px 8px 6px 10%;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: #ffffff;
     display: block;
   }
@@ -80,14 +81,14 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: auto;
-    
+    height: auto;  
   }
 
   div.polaroid {
     animation: fadeIn ease 0.5s;
     width: 400px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
+    color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 25px;
     float: left
@@ -95,7 +96,7 @@
 
   div.polaroid:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 227, 215, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(21, 21, 21);
   }
 
   div.container {
@@ -109,7 +110,7 @@
     width: 95%;
     height: fit-content;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     margin-right: 25px;
     margin-left: 25px;
     margin-bottom: 10px;
@@ -125,10 +126,10 @@
     animation: fadeIn ease 0.5s;
     width: 100%;
     height: fit-content;
-    background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 10px;
-    float: left
+    float: left;
+    color:white;
+    background-color: #000000;
   }
 
   div.postcontainer {
@@ -139,6 +140,26 @@
     overflow: auto;
     text-align: left;
   }
+
+  div.pageheader {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    overflow:hidden;
+    width: 102.5%;
+    margin-left: -18px;
+    margin-top: -50px;
+  }
+
+  div.pagefooter {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    overflow:hidden;
+    width: 102.5%;
+    height: 100.0%;
+    margin-left: -18px;
+    margin-top: -50px;
+  }
+
 
   img.post  { 
     margin: 10px;
@@ -152,17 +173,13 @@
   }
 
   img.postcover  { 
-    margin-top: 0px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-
-    width: 50%;
-    height: 35%;
-    object-fit: cover;
+    width: 500px;
+    object-fit:cover;
     display: flexbox;
     float: left;
     overflow: auto;
     text-align: left;
+    margin: 30px;
   }
 
 
@@ -193,23 +210,23 @@
   }
   
   .pill--selected {
-    background: #009578;
+    background: teal;
     color: #ffffff;
   }
   
 
   p a:link {
-    color: #44d4a6;
+    color: rgb(6, 215, 215);;
   }
   
   p a:visited {
-    color:#319172;
+    color:teal;
     
   }
    
   p a:focus {
     text-decoration: none;
-    background: #52ffc8;
+    background: hsl(161, 100%, 66%);
   }
   
   p a:hover {
@@ -234,8 +251,9 @@
   .sidebar-footer {
   position: fixed;
   bottom: 5%;
-  left: 25%;
+  left: 22%;
   margin: 0%;
+ 
 }
 
  .background{
@@ -244,14 +262,13 @@
   height: 100%; 
   width: 300px;
   /* Center and scale the image nicely */
-  background-position: left;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -10;
   position:fixed;
   top: 0; /* Stay at the top */
   left: 0;
-
  }
 
  ::selection {
@@ -426,7 +443,6 @@
 
  iframe{
   animation: fadeIn ease 1.5s;
-
  }
 
 @keyframes fadeIn {
@@ -439,6 +455,7 @@
   transform: translateY(30px);
   animation: textCrawl 0.5s ease-out forwards;
   display:inline-block;
+
 }
 
 .textCrawl2 span{
