@@ -5,6 +5,7 @@ date:   2024-01-07 18:09:43 -0400
 image: "/assets/RevisionInteractiveLogo.png"
 tags: [Bio]
 featured: "True"
+permalink: /:title
 ---  
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -37,3 +38,23 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 [Its A Markdown Link!]: https://twitter.com/Shesh_Gaur
+
+<!-- <nav>
+        <ul>
+            <li><a href="#section1" target="_parent">First Section</a></li>
+            <li><a href="#section2" target="_parent">Second Section</a></li>
+            ...more...
+        </ul>
+</nav>
+
+<div>
+        <section id="section1">
+            <h1>First Section</h1>
+            <p>...more...</p>
+        </section>
+        <section id="section2">
+            <h1>Second Section</h1>
+            <p>...more...</p>
+        </section>
+        ...more...
+ </div> -->

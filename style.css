@@ -241,7 +241,6 @@
 
   .sidebar-icon {
     display: inline-block;
-    text-align: left;
 }
 
 .fa-brands:active {
@@ -250,10 +249,9 @@
 
   .sidebar-footer {
   position: fixed;
-  bottom: 5%;
-  left: 22%;
+  bottom: 3%;
   margin: 0%;
- 
+  text-align: center;
 }
 
  .background{

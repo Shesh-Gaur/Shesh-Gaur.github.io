@@ -5,6 +5,8 @@ layout: "wrapper"
 <img class="postcover" src= {{page.image}} alt="image">
 <div style="float: left; margin: 50px; width:50%;">
 <h1 style="margin-top: 00px;">{{page.title}}</h1>
+<h4 style="margin-top: -20px;"><i>{{page.organization}}</i></h4>
+
 <div class="background" style="animation: fadeIn ease 2.5s; background-image: url('{{page.image}}');">
 </div>
 
@@ -15,7 +17,7 @@ layout: "wrapper"
 </button>
 </a>
 {% endfor %}
-<strong><p style="clear: both;"><i class="fa-solid fa-user" style="font-size:20px; margin-left: 4px; color: teal;"></i> {{page.roles}}</p></strong>
+<strong><p style="clear: both; text-indent: -1em; padding-left: 2em;"><i class="fa-solid fa-user" style="font-size:20px; margin-left: 4px; color: teal;"></i> {{page.roles}}</p></strong>
 <strong><p><i class="fa-solid fa-calendar-days" style="font-size:20px; margin-left: 4px; color: teal;"></i> {{page.startDate}} - {{page.endDate}}</p></strong>
 <strong><p><i class="fa-solid fa-screwdriver-wrench" style="font-size:20px; margin-left: 4px; color: teal;"></i> {{page.engine}}</p></strong>
 <strong><p><i class="fa-solid fa-people-group" style="font-size:20px; margin-left: 4px; color: teal;"></i> {{page.teamSize}}</p></strong>

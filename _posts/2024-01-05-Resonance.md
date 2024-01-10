@@ -12,34 +12,52 @@ tags: [Student]
 featured: "True"
 permalink: /:title
 ---
-<!-- <nav>
-        <ul>
-            <li><a href="#section1" target="_parent">First Section</a></li>
-            <li><a href="#section2" target="_parent">Second Section</a></li>
-            ...more...
-        </ul>
-</nav>
 
-<div>
-        <section id="section1">
-            <h1>First Section</h1>
-            <p>...more...</p>
-        </section>
-        <section id="section2">
-            <h1>Second Section</h1>
-            <p>...more...</p>
-        </section>
-        ...more...
- </div> -->
+<iframe style="float: right; margin-left: 50px; margin-bottom: 50px; margin-top: 50px;" width="560" height="315" src="https://www.youtube.com/embed/Woa6Wd34yfs?si=BemEPXuisSgm4yhv&amp&mute=1&autoplay=1&start=21;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe style="float: right; margin-left: 50px;" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h2>Overview</h2>
+Game Page: <a href="https://christianmoncada.itch.io/resonance" target="_blank">https://christianmoncada.itch.io/resonance</a>
 
-<h2>This is a Heading</h2>
+Resonance is a first-person stealth game set on a grim freighter ship. Avoid sound-oriented creatures by making as little sound as possible and skillfully maneuvering around the ship to avoid confrontation. Use sounds in your environment to distract enemies, and hold your breath to get away unscathed. 
 
-<h3>And This is a Sub Heading</h3>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero odio, accumsan a ultricies feugiat, tincidunt quis nisl. Curabitur faucibus sodales ipsum tincidunt pulvinar. Ut interdum quam et ligula ornare, ut ullamcorper ipsum pharetra. Aliquam egestas, nunc nec fringilla vestibulum, orci tortor volutpat purus, id suscipit sapien risus quis ante. Duis non justo congue, mattis magna a, volutpat odio. Donec ac augue leo. Maecenas nisi massa, varius in feugiat eu, finibus vitae elit. Suspendisse mattis sollicitudin dapibus. Suspendisse at ultrices tellus, eu semper tortor. Ut euismod, elit a egestas congue, ligula est euismod felis, nec placerat lectus augue quis lorem. Nullam eget venenatis massa.
+<i>Developed by <a href="/What-Is-Revision-Interactive" target="_blank">Revision Interactive</a></i>
 
-Suspendisse erat tellus, tincidunt et augue nec, dapibus dapibus augue. Sed in neque ante. Nunc purus libero, elementum a ex non, bibendum pretium tortor. Aenean in lacus lectus. In risus magna, finibus ac orci ut, egestas pharetra nunc. Curabitur nec ultrices nulla. Suspendisse pharetra egestas consequat. Proin id lectus sed velit eleifend luctus. Sed vestibulum volutpat ultricies. Donec vel magna turpis. Aenean ut convallis lacus, ut luctus eros. Etiam ut auctor turpis, sit amet cursus risus. Mauris dictum pulvinar erat, vel condimentum turpis. Sed ultrices elit ipsum, vitae suscipit odio sodales eu.
-<h3>Another Sub Heading...</h3>
-Wow, more content. Check out this <a href="https://www.google.com/">website</a>.
- 
+<h2>Info</h2>
+
+- Developed in a custom engine-based on Ontario Tech University’s <a href="https://github.com/Ontario-Tech-GDW/OTTER" target="_blank">Otter Framework</a>
+using C++ and OpenGL. 
+
+- Recipient of three awards at GameCon 2022, <a href="https://www.gamecon.ca/archive/2022/winners" target="_blank">including Best Tech, Best Design and Best Art.</a>
+    
+
+<iframe style="float: right; margin-left: 50px; margin-bottom: 50px;" width="560" height="315" src="https://www.youtube.com/embed/PortG5dVL80?si=sMt1-H2oa-bRLZX4&amp;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+- Created custom AI systems from scratch including: NavMesh Generation and Connection, A*
+Pathfinding, Finite State Machines, Patrolling and Distraction Systems, Steering and Avoidance
+Behaviours, Sound Detection, etc.
+
+- Wrote custom shaders, lighting, and gameplay systems to visualize in-game sounds. Integrated
+FMod Studio API in Engine, created and implemented all sounds, ambiences, music, and a sound
+dampening system.
+
+- <a href="https://docs.google.com/presentation/d/1fg3h7dghsHYTs0I8R6AoBB8XHGnTdrzfRJBXx9aLxU0/edit?usp=sharing" target="_blank">Detailed technical presentation</a> made for Best Tech Award consideration. I was responsible for
+sound emission and rendering, AI systems and enemy behaviours, audio systems, as well as
+lighting sections.
+
+- Worked with our designer to iterate on Gameplay and AI mechanics. Actively participated in
+design discussions.
+
+<img src= "/assets/ResonanceAwardsGroupPhoto.jpg" alt="image" style="float: right; width:560px; margin-left: 50px; margin-bottom:50px;">
+
+<h2>Awards</h2>
+- 'Best Tech' award at Ontario Tech GameCon 2022
+
+- 'Best Art' award at Ontario Tech GameCon 2022
+
+- 'Best Game Design' award at Ontario Tech GameCon 2022
+
+- Nominated For 'Best Second Year Game' award at Ontario Tech GameCon 2022
+
+- Nominated For 'Best Sound' award at Ontario Tech GameCon 2022
+
