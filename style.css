@@ -48,7 +48,19 @@
   .sidenav a:hover {
     color: #b3b0b0;
   }
-  
+
+  .sidenav-toggle 
+  {
+    position: fixed;
+    right: 0;
+    margin-right: 10px;
+    margin-top: -105px;
+    font-size: 35px;
+    border: none;
+    background: none;
+    z-index: 2;
+  }
+
   /* Style page content */
   .main {
     margin-left: 300px; /* Same as the width of the sidebar */
@@ -56,25 +68,9 @@
     padding: 0px 10px;
   }
   
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
-  .sidenav  {
-    width: 100%;
-    height: auto;
-    position: relative;
-    overflow: hidden;
+  .header {
+    display: none;
   }
-  .sidenav  a {float: left;}
-  div.content {margin-left: 0;}
-
-  .main {
-    margin-left: 0px; /* Same as the width of the sidebar */
-    margin-top: 0px; /* Same as the width of the sidebar */
-    padding: 0px 0px;
-  }
-
-  .background{visibility: hidden;}
-}
 
   img {
     display: block;
@@ -107,12 +103,11 @@
 
   div.polaroid2 {
     animation: fadeIn ease 0.5s;
-    width: 95%;
+    width: 90%;
     height: fit-content;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-left: 5%;
     margin-bottom: 10px;
     float: left
   }
@@ -183,11 +178,12 @@
   }
 
 
-  div.footer { 
+  .footer { 
    clear: both;
    margin-left: 300px; /* Same as the width of the sidebar */
    margin-top: 50px; /* Same as the width of the sidebar */
-   padding: 0px 10px;
+   text-align: center;
+   display: none;
   }
 
   .pill {
@@ -439,9 +435,69 @@
   }
 }
 
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  div.content {margin-left: 0;}
+  
+  .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 50%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0%; /* Stay at the top */
+    left: 50%;
+    background-color: #00000090; /* Black */
+    backdrop-filter: blur(5px);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    text-align: center;
+    display: none;
+  }
+
+  .main {
+    margin-left: 0px; /* Same as the width of the sidebar */
+    margin-top: 0px; /* Same as the width of the sidebar */
+    padding: 0px 0px;
+  }
+
+  .background{
+  /* Full height */
+  height: 80px; 
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position-y: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -10;
+  position:absolute;
+  top: 0; /* Stay at the top */
+  left: 0;
+   }
+
+   .header {
+    background-color: rgba(0, 0, 0, 0.479);
+    margin: -8px;
+    margin-bottom: 40px;
+    height: 80px;    
+    text-align: left;
+    line-height: 70px;
+    display: block;
+  }
+}
+
+
  iframe{
   animation: fadeIn ease 1.5s;
  }
+
+ .fadeIn{
+  animation: fadeIn ease 0.5s ;
+  display: block;
+}
+
+.fadeOut{
+  display: none;
+}
 
 @keyframes fadeIn {
   0% {opacity:0; margin-top: 0in;}
@@ -487,3 +543,4 @@
     transform: translateY(0);
   }
 }
+
