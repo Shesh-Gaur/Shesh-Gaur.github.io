@@ -3,7 +3,9 @@
   font-size: 105%;
   font-family: monospace;
   box-sizing: border-box;
+  zoom: 100%;
  } 
+
 
  h1 {
   font-size: 300%;
@@ -258,8 +260,7 @@
   /* The image used */
   /* Full height */
   height: 100%; 
-  max-width: 300px;
-  width: 100%;
+  width: 300px;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -444,6 +445,13 @@
 @media screen and (max-width: 900px) {
   div.content {margin-left: 0;}
   
+  * {
+    font-size: 105%;
+    font-family: monospace;
+    box-sizing: border-box;
+    zoom: 95%;
+   } 
+
   .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     max-width: 300px;
@@ -468,7 +476,8 @@
 
   .background{
   /* Full height */
-  height: 80px; 
+  max-height: 80px;
+  height: 100%; 
   width: 100%;
   /* Center and scale the image nicely */
   background-position-y: 20%;
@@ -482,9 +491,11 @@
 
    .header {
     background-color: rgba(0, 0, 0, 0.479);
-    margin: -8px;
+    margin-top: -8px;
+    margin-left: -8px;
     margin-bottom: 40px;
-    height: 80px;    
+    max-height: 80px;  
+    height: 100%;  
     text-align: left;
     line-height: 70px;
     display: block;
