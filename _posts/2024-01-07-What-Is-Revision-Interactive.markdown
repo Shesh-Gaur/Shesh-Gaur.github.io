@@ -7,7 +7,7 @@ tags: [Bio]
 featured: "True"
 permalink: /:title
 ---  
-<img src= "/assets/RevisionInteractiveLogoInvert.png" alt="image" style="float: right; width:560px; margin-left: 50px; margin-bottom:100px;">
+<img src= "/assets/RevisionInteractiveLogoInvert.png" alt="image" style="float: right; max-width:560px; width:100%; margin-left: 50px; margin-bottom:100px;">
 
 <h2>Overview</h2>
 Formed in 2020, Revision Interactive started as a student team of 4-5 people developing games in the Game Development and Entrepreneurship program at Ontario Tech University. During our time in the program we developed several games together, ranging from larger student projects to game jams. For nearly the past 2 years, we've been working on our first commercial release: The Outreach.

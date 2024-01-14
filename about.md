@@ -7,7 +7,7 @@ order: 3
 <hr>
 
 <div class="polaroid3">
-    <img src ="/assets/profilePic.jpg" style="border-radius: 50%; width: 400px; margin-left: 40px; margin-top: 40px;" class="post"> 
+    <img src ="/assets/profilePic.jpg" style="border-radius: 50%; max-width: 400px; width: 100%; margin-left: 40px; margin-top: 40px;" class="post"> 
    <div class="postcontainer" style="display: block; width: 65%; word-wrap: break-word; margin: auto;">
     <h1 class="textCrawl"><em>
         <span>Hey,</span>

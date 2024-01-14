@@ -48,7 +48,7 @@ lighting sections.
 - Worked with our designer to iterate on Gameplay and AI mechanics. Actively participated in
 design discussions.
 
-<img src= "/assets/ResonanceAwardsGroupPhoto.jpg" alt="image" style="float: right; width:560px; margin-left: 50px; margin-bottom:50px;">
+<img src= "/assets/ResonanceAwardsGroupPhoto.jpg" alt="image" style="float: right; max-width:560px; width:100%; margin-left: 50px; margin-bottom:50px;">
 
 <h2>Awards</h2>
 - 'Best Tech' award at Ontario Tech GameCon 2022

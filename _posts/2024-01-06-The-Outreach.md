@@ -46,9 +46,9 @@ Systems. Focused on re-usability and scalability.
 project timelines, tasks, and priorities.
 
 
-<img src= "/assets/OutreachLevelUpExhibitPhoto.jpg" alt="image" style="float: left; width:560px; margin: 50px">
+<img src= "/assets/OutreachLevelUpExhibitPhoto.jpg" alt="image" style="float: left; max-width:560px; width:100%; margin: 50px">
 
-<img src= "/assets/OutreachAwardsGroupPhoto.png" alt="image" style="width:560px; margin: 50px">
+<img src= "/assets/OutreachAwardsGroupPhoto.png" alt="image" style="max-width:560px; width:100%; margin: 50px">
 
 
 <h2>Awards</h2>
