@@ -3,7 +3,7 @@ layout: project
 title: "Resonance"
 organization: "Revision Interactive" 
 image: "/assets/ResonanceLogo.png"
-roles: "Gameplay, Engine & AI Programmer, Composer & Sound Designer"
+roles: "Gameplay, Engine & AI Programmer, Sound Designer & Composer"
 startDate: 09/06/2021
 endDate: 04/14/2022
 engine: "C++, OpenGL"

@@ -12,7 +12,7 @@ tags: [Student, Commercial]
 featured: "True"
 permalink: /:title
 ---
-<p style="text-align: right; margin-right: 5em; color: teal"><i>*Footage is from very early in development</i></p>
+<p style="text-align: right; margin-right: 5em; color: teal"><i>*Footage is from early in development</i></p>
 
 <iframe style="float: right; margin-left: 50px; margin-bottom: 50px;" width="560" height="315" src="https://www.youtube.com/embed/KBqZiH_2Q_g?si=XuVle4ScDZ-9O0gJ&amp&mute=1&autoplay=1&start=23;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -24,7 +24,7 @@ The Outreach is a first-person movement shooter with no mechanical weapons. Inst
 
 <i>Currently in Development by <a href="/What-Is-Revision-Interactive" target="_blank">Revision Interactive</a></i>
 
-Release Date: Summer 2024
+Release Date: June 21st 2024
 
 <h2>Info</h2>
 
