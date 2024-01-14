@@ -476,8 +476,7 @@
 
   .background{
   /* Full height */
-  max-height: 80px;
-  height: 100%; 
+  height: 80px; 
   width: 100%;
   /* Center and scale the image nicely */
   background-position-y: 20%;
@@ -496,6 +495,7 @@
     margin-bottom: 40px;
     max-height: 80px;  
     height: 100%;  
+    width: 100%;
     text-align: left;
     line-height: 70px;
     display: block;

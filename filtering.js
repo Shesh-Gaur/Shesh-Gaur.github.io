@@ -9,9 +9,10 @@ window.onbeforeunload = function leavePage()
  
 window.onload = function displayUniqueTags()
 { 
-
-    setTimeout(500);
-    
+    if (document.readyState != 'complete')
+    {
+        return;
+    }
 
     if (!posts)
     {
