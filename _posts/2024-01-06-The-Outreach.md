@@ -14,7 +14,7 @@ permalink: /:title
 ---
 <p style="text-align: right; margin-right: 5em; color: teal"><i>*Footage is from early in development</i></p>
 
-<iframe style="float: right; margin-left: 50px; margin-bottom: 50px;" width="560" height="315" src="https://www.youtube.com/embed/KBqZiH_2Q_g?si=XuVle4ScDZ-9O0gJ&amp&mute=1&autoplay=1&start=23;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="float: right; margin-left: 50px; margin-bottom: 50px; max-width:560px; max-height:315px;" width="100%" height="100%" src="https://www.youtube.com/embed/KBqZiH_2Q_g?si=XuVle4ScDZ-9O0gJ&amp&mute=1&autoplay=1&start=23;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 <h2>Overview</h2>

@@ -16,6 +16,10 @@ function animation() {
 
 
 window.onresize = function(event) {
+    if (window.innerWidth < 900)
+    {
+        return;
+    }
 
     content.classList.remove("fadeIn");
     content.classList.remove("fadeOut");

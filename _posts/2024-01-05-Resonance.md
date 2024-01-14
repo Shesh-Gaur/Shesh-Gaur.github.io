@@ -13,7 +13,7 @@ featured: "True"
 permalink: /:title
 ---
 
-<iframe style="float: right; margin-left: 50px; margin-bottom: 50px; margin-top: 50px;" width="560" height="315" src="https://www.youtube.com/embed/Woa6Wd34yfs?si=BemEPXuisSgm4yhv&amp&mute=1&autoplay=1&start=21;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="float: right; margin-left: 50px; margin-bottom: 50px; margin-top: 50px; max-width:560px; max-height:315px;" width="100%" height="100%" src="https://www.youtube.com/embed/Woa6Wd34yfs?si=BemEPXuisSgm4yhv&amp&mute=1&autoplay=1&start=21;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <h2>Overview</h2>
 Game Page: <a href="https://christianmoncada.itch.io/resonance" target="_blank">https://christianmoncada.itch.io/resonance</a>
@@ -30,7 +30,7 @@ using C++ and OpenGL.
 - Recipient of three awards at GameCon 2022, <a href="https://www.gamecon.ca/archive/2022/winners" target="_blank">including Best Tech, Best Design and Best Art.</a>
     
 
-<iframe style="float: right; margin-left: 50px; margin-bottom: 50px;" width="560" height="315" src="https://www.youtube.com/embed/PortG5dVL80?si=sMt1-H2oa-bRLZX4&amp;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="float: right; margin-left: 50px; margin-bottom: 50px; max-width:560px; max-height:315px;" width="100%" height="100%" src="https://www.youtube.com/embed/PortG5dVL80?si=sMt1-H2oa-bRLZX4&amp;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 - Created custom AI systems from scratch including: NavMesh Generation and Connection, A*
