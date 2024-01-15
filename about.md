@@ -7,7 +7,7 @@ order: 3
 <hr>
 
 <div class="polaroid3">
-    <img src ="/assets/profilePic.jpg" style="border-radius: 50%; max-width: 400px; width: 100%; margin-left: 40px; margin-top: 40px;" class="post"> 
+    <img src ="/assets/profilePic.jpg" class="profile"> 
    <div class="postcontainer" style="display: block; width: 65%; word-wrap: break-word; margin: auto;">
     <h1 class="textCrawl"><em>
         <span>Hey,</span>
@@ -30,4 +30,4 @@ order: 3
 
 <p style="font-size:20px"><i><a href="/The-Outreach" target="_blank">The Outreach</a></i> is a much larger project, and has contributed heavily to building my leadership skills. Working with our designer to develop gameplay and AI systems that are easy for them to manipulate, tweak and author has been a deeply satisfying experience that has greatly improved my communication skills. Our team has been short on artists for this project. Working with our artist to make the most of our situation, developing shaders and optimizing assets for efficient use, has strengthened my ability to work under limitations.</p>
 
-<p style="font-size:20px">Being able to share our work with the local game development community and players at events has been deeply fulfilling, and a fantastic environment to learn, grow and network in. Overall, having the opportunity to work and collaborate with people from so many different diciplines is what makes game development so compelling so me.</p>
+<p style="font-size:20px">Being able to share our work with the local game development community and players at events has been deeply fulfilling, and a fantastic environment to learn, grow and network in. Overall, having the opportunity to work and collaborate with people from so many different disciplines is what makes game development so compelling so me.</p>

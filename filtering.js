@@ -9,8 +9,9 @@ window.onbeforeunload = function leavePage()
  
 window.onload = function displayUniqueTags()
 { 
-    if (document.readyState != 'complete')
-    {
+    const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+
+    if (window.document.readyState != "complete" || regex.test(navigator.userAgent)) {
         return;
     }
 

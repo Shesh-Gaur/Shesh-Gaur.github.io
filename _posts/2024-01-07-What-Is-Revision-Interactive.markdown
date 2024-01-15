@@ -27,6 +27,7 @@ I led the team across over 7 projects during my time in the Game Development and
 <h4 style="margin-top:0px">Environment Artist, Character Artist, Concept Artist, Texture Artist</h4>
 
 <h2>Socials</h2>
+<a href="https://revision-interactive.itch.io" target="_blank">Itch.io</a>
 <a href="https://twitter.com/Revision_Games" target="_blank">Twitter</a>
 <a href="http://www.tiktok.com/@revisioninteractive" target="_blank">TikTok</a>
 <a href="https://www.threads.net/@revisioninteractive" target="_blank">Threads</a>
