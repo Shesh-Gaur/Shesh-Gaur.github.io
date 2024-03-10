@@ -24,7 +24,7 @@ The Outreach is a first-person movement shooter with no mechanical weapons. Inst
 
 <i>Currently in Development by <a href="/What-Is-Revision-Interactive" target="_blank">Revision Interactive</a></i>
 
-Release Date: June 21st 2024
+Release Date: July 26th, 2024
 
 <h2>Info</h2>
 
