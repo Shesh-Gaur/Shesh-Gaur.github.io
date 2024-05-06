@@ -12,13 +12,13 @@ tags: [Student, Commercial]
 featured: "True"
 permalink: /:title
 ---
-<p style="text-align: right; margin-right: 5em; color: teal"><i>*Footage is from early in development</i></p>
 
-<iframe style="float: right; margin-left: 50px; margin-bottom: 50px; max-width:560px; max-height:315px;" width="100%" height="100%" src="https://www.youtube.com/embed/KBqZiH_2Q_g?si=XuVle4ScDZ-9O0gJ&amp&mute=1&autoplay=1&start=23;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="float: right; margin-left: 50px; margin-bottom: 50px; max-width:560px; max-height:315px;" width="100%" height="100%" src="https://www.youtube.com/embed/eNMRaGwTgUw?si=Lgc_qQP6t74rvi_8&amp&mute=1&autoplay=1&start=0;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 <h2>Overview</h2>
-Game Page: <a href="https://shesh-gaur.itch.io/the-outreach" target="_blank">https://shesh-gaur.itch.io/the-outreach</a>
+Steam Page: 
+<iframe src="https://store.steampowered.com/widget/2880840/" frameborder="0" width="646" height="190"></iframe>
 
 The Outreach is a first-person movement shooter with no mechanical weapons. Instead, you wield telekinetic powers to manipulate objects in the environment and defeat hostile alien-built creatures through the depths of an irradiated planet. Centuries after the mysterious extinction of humanity, you are a part of the "Human Restoration Program," the final hope for the rebirth of mankind.
 
@@ -30,8 +30,6 @@ Release Date: July 26th, 2024
 
 - Currently in development using Unreal Engine 5. Developed core gameplay systems using C++ and Blueprints.
 
-- Exhibitor at <a href="https://levelupshowcase.com/" target="_blank">Level Up Showcase 2023</a>. Recipient of <a href="https://www.gamecon.ca/gamecon2023/2023/winners" target="_blank">Best Third Year Award, and nominated for Best Tech, Best Sound and Best Art</a> at Gamecon 2023.
-
 - Built AI using Unreal's Behaviour Tree and Blackboard Systems. Programmed BTTask nodes
 in C++, and provided parameters to help designers make adjustments. Established a workflow
 with other programmers ensuring C++ and Blueprints integrate with each other, allowing
@@ -41,6 +39,8 @@ designers to easily modify functionality.
 systems.
 - Created shaders and effects using Unreal's Material Graph, as well as Niagra Particles
 Systems. Focused on re-usability and scalability.
+
+- Modelled 3D assets and props. Designed UI, icons and marketing materials.
 
 - Used Notion for project management, resources, and design documentation. Established
 project timelines, tasks, and priorities.
@@ -52,6 +52,16 @@ project timelines, tasks, and priorities.
 
 
 <h2>Awards</h2>
+- Honorable Mention for  'Best Achievement in Accessibility'  at Level Up Showcase 2024
+
+- Level Up Showcase 2024 Exhibitor
+
+- 'Best Fourth Year' award at Ontario Tech GameCon 2024
+
+- 'Guest's Choice' award at Ontario Tech GameCon 2024
+
+- Nominated For 'Best Design' award at Ontario Tech GameCon 2024
+
 - Level Up Showcase 2023 Exhibitor
 
 - 'Best Third Year' award at Ontario Tech GameCon 2023

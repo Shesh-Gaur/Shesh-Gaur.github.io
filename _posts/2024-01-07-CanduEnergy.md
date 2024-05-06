@@ -22,4 +22,6 @@ permalink: /:title
 
 - Created and implemented sound effects for various interfaces.
 
+- Conducted A/B testing to find issues and implement fixes
+
 - Subject to NDA, no further details available
