@@ -5,7 +5,7 @@ organization: "Candu Energy Inc."
 image: "/assets/candu_energy_inc_logo.png"
 roles: "Programmer, Project Manager, Sound Designer"
 startDate: 09/05/2023
-endDate: Present
+endDate: 04/30/2024
 engine: "Unreal Engine 4"
 teamSize: "4"
 tags: [Client]
