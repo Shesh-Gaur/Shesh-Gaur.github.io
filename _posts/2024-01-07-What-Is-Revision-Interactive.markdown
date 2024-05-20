@@ -7,15 +7,21 @@ tags: [Bio]
 featured: "True"
 permalink: /:title
 ---  
-<img src= "/assets/RevisionInteractiveLogoInvert.png" alt="image" style="float: right; max-width:560px; width:100%; margin-left: 50px; margin-bottom:100px;">
 
+<div style="overflow:hidden">
+<div style="float: left; width: 50%">
 <h2>Overview</h2>
-Formed in 2020, Revision Interactive started as a student team of 4-5 people developing games in the Game Development and Entrepreneurship program at Ontario Tech University. During our time in the program we developed several games together, ranging from larger student projects to game jams. For nearly the past 2 years, we've been working on our first commercial release: The Outreach.
+<p>Formed in 2020, Revision Interactive started as a student team of 4-5 people developing games in the Game Development and Entrepreneurship program at Ontario Tech University. During our time in the program we developed several games together, ranging from larger student projects to game jams. For the past 2 years, we've been working on our first commercial release: THE OUTREACH.</p>
+</div>
+<img src= "/assets/RevisionInteractiveLogoInvert.png" alt="image" style="float: right; max-width:560px; width:100%;">
+
+</div>
+
 
 <h2>The Team</h2>
 <h3 style="margin-bottom:0px">Shesh Gaur</h3>
 <h4 style="margin-top:0px">Programmer, Project Manager, Sound Designer & Composer, Technical Artist</h4>
-I led the team across over 7 projects during my time in the Game Development and Entrepreneurship program at Ontario Tech University. I primarily served as a programmer on projects, implementing engine, gameplay and AI systems in a variety of engines and frameworks. I was responsible for scheduling meetings, maintaining timelines, and delegating tasks. My holistic view of projects allowed me to fill in gaps where needed, creating and implementing SFX, music, art and shaders.
+<p>I led the team across over 7 projects during my time in the Game Development and Entrepreneurship program at Ontario Tech University, and now as a business in Revision Interactive. I primarily served as a programmer on projects, implementing engine, gameplay and AI systems in a variety of engines and frameworks. I was responsible for scheduling meetings, maintaining timelines, and delegating tasks. My holistic view of projects allowed me to fill in gaps where needed, creating and implementing SFX, music, art and shaders</p>
 
 <h3 style="margin-bottom:0px">Christian Moncada</h3>
 <h4 style="margin-top:0px">Game Designer, Level Designer, Writer</h4>
