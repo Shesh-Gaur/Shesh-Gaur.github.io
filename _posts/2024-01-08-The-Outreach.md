@@ -25,8 +25,6 @@ permalink: /:title
     </p>
 
     <p>Currently in Development by <a href="/What-Is-Revision-Interactive" target="_blank">Revision Interactive</a></p>
-
-    <p>Release Date: July 26th, 2024</p>
 </div>
 
 <iframe style="float: right; max-width:560px; max-height:315px; margin: 50px" width="100%" height="100%" src="https://www.youtube.com/embed/eNMRaGwTgUw?si=Lgc_qQP6t74rvi_8&amp&mute=1&autoplay=1&start=0;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
