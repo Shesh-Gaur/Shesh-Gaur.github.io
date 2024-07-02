@@ -9,7 +9,7 @@ permalink: /:title
 ---  
 
 <div style="overflow:hidden">
-<div style="float: left; width: 50%">
+<div class="postbody">
 <h2>Overview</h2>
 <p>Formed in 2020, Revision Interactive started as a student team of 4-5 people developing games in the Game Development and Entrepreneurship program at Ontario Tech University. During our time in the program we developed several games together, ranging from larger student projects to game jams. For the past 2 years, we've been working on our first commercial release: THE OUTREACH.</p>
 </div>

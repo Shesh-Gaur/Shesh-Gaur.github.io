@@ -15,7 +15,7 @@ permalink: /:title
 
 <div style="overflow:hidden">
 
-<div style="float: left; width: 50%">
+<div class="postbody">
     <h2>Overview</h2>
     <p>Steam Page: </p>
     <iframe src="https://store.steampowered.com/widget/2880840/" frameborder="0" width="646" height="190"></iframe>
@@ -27,9 +27,9 @@ permalink: /:title
     <p>Currently in Development by <a href="/What-Is-Revision-Interactive" target="_blank">Revision Interactive</a></p>
 </div>
 
-<iframe style="float: right; max-width:560px; max-height:315px; margin: 50px" width="100%" height="100%" src="https://www.youtube.com/embed/eNMRaGwTgUw?si=Lgc_qQP6t74rvi_8&amp&mute=1&autoplay=1&start=0;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe style="float: right; margin-left: 50px; margin-bottom: 50px; margin-top: 50px; max-width:560px; max-height:315px;" width="100%" height="100%" src="https://www.youtube.com/embed/eNMRaGwTgUw?si=Lgc_qQP6t74rvi_8&amp&mute=1&autoplay=1&start=0;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<div style="clear: both; float: left; width: 50%">
+<div class="postbody">
     <h2>Info</h2>
     <ul>
     <li>Currently in development using Unreal Engine 5. Developed core gameplay systems using C++ and Blueprints.</li>
@@ -51,9 +51,9 @@ permalink: /:title
     </ul>
 </div>
 
-<img src= "/assets/OutreachLevelUpExhibitPhoto.jpg" alt="image" style="float: right; max-width: 500px; width: 100%; margin: 50px">
+<img src= "/assets/OutreachLevelUpExhibitPhoto.jpg" alt="image" style="float: right; max-width:560px; width:100%; margin-left: 50px; margin-bottom:50px;">
 
-<div style="clear: both; float: left; width: 50%;">
+<div class="postbody">
     <h2>Awards</h2>
     <ul>
     <li>Honorable Mention for  'Best Achievement in Accessibility'  at Level Up Showcase 2024</li>
@@ -78,7 +78,7 @@ permalink: /:title
     </ul>
 </div>
 
-<img src= "/assets/OutreachAwardsGroupPhoto.png" alt="image" style="float: right; max-width: 500px; width: 100%; margin: 50px">
+<img src= "/assets/OutreachAwardsGroupPhoto.png" alt="image" style="float: right; max-width:560px; width:100%; margin-left: 50px; margin-bottom:50px;">
 
 </div>
 <hr style="clear:both;">

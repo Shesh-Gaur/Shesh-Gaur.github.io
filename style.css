@@ -222,6 +222,12 @@ li {
    display: none;
   }
 
+  div.postbody {
+    clear: both; 
+    float: left; 
+    max-width: 100%;
+  }
+
   .pill {
     padding: 0.5em 1em;
     margin: 0.25em;

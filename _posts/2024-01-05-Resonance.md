@@ -17,7 +17,7 @@ permalink: /:title
 
 <iframe style="float: right; margin-left: 50px; margin-bottom: 50px; margin-top: 50px; max-width:560px; max-height:315px;" width="100%" height="100%" src="https://www.youtube.com/embed/Woa6Wd34yfs?si=BemEPXuisSgm4yhv&amp&mute=1&autoplay=1&start=21;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<div style="float: left; width: 50%">
+<div class="postbody" style="clear: none">
     <h2>Overview</h2>
     <p>Game Page:</p>
 
@@ -28,7 +28,7 @@ permalink: /:title
     <p>Developed by <a href="/What-Is-Revision-Interactive" target="_blank">Revision Interactive</a></p>
 </div>
 
-<div style="clear: both; float: left; width: 50%">
+<div class="postbody">
     <h2>Info</h2>
     <ul>
     <li>Developed in a custom engine-based on Ontario Tech University’s <a href="https://github.com/Ontario-Tech-GDW/OTTER" target="_blank">Otter Framework</a>
@@ -55,7 +55,7 @@ permalink: /:title
 
 <iframe style="float: right; margin-left: 50px; margin-bottom: 50px; max-width:560px; max-height:315px;" width="100%" height="100%" src="https://www.youtube.com/embed/PortG5dVL80?si=sMt1-H2oa-bRLZX4&amp;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<div style="clear: both; float: left; width: 50%">
+<div class="postbody">
     <h2>Awards</h2>
     <ul>
     <li>'Best Tech' award at Ontario Tech GameCon 2022</li>
