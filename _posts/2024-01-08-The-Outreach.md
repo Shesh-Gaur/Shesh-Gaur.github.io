@@ -39,8 +39,7 @@ permalink: /:title
     with other programmers ensuring C++ and Blueprints integrate with each other, allowing
     designers to easily modify functionality.</li>
 
-    <li>Created and implemented all audio using FMod. Developed adaptive audio and speech
-    systems.</li>
+    <li>Created and implemented all audio using FMod. Developed adaptive audio systems.</li>
     <li>Created shaders and effects using Unreal's Material Graph, as well as Niagra Particles
     Systems. Focused on re-usability and scalability.</li>
 
