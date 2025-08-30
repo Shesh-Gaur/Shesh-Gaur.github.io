@@ -79,6 +79,13 @@ permalink: /:title
 
 <img src= "/assets/OutreachAwardsGroupPhoto.png" alt="image" style="float: right; max-width:560px; width:100%; margin-left: 50px; margin-bottom:50px;">
 
+<div class="postbody">
+<ul>
+</ul>  
+</div>
+
+<img src= "/assets/TheOutreachGamecon2024BoothPhoto.jpg" alt="image" style="float: right; max-width:560px; width:100%; margin-left: 50px; margin-bottom:50px;">
+
 </div>
 <hr style="clear:both;">
 

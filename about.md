@@ -23,8 +23,8 @@ order: 3
 <hr>
 
 <center>
-<p style="color: black;">Resume available on my <a href="https://www.linkedin.com/in/shesh-gaur/" target="_blank">LinkedIn</a> or upon request.</p>
-<p style="color: black;"><i style="color: teal;">Contact Me:</i> sheshgaur.dev@gmail.com</p>
+<p style="color: black;">Resume available upon request.</p>
+<p style="color: black;"><i style="color: teal;">Contact Me:</i> sheshgaur.dev@gmail.com or <a href="https://www.linkedin.com/in/shesh-gaur/" target="_blank">LinkedIn</a></p>
 
 
 <h2>Growing Up</h2>
@@ -38,4 +38,7 @@ order: 3
 <p style="font-size:20px"><i><a href="/The-Outreach" target="_blank">THE OUTREACH</a></i> is a much larger project, and has contributed heavily to building my leadership skills. Working with our designer to develop gameplay and AI systems that are easy for them to manipulate, tweak and author has been a deeply satisfying experience that has greatly improved my communication skills. Our team has been short on artists for this project. Working with our artist to make the most of our situation, developing shaders and optimizing assets for efficient use, has strengthened my ability to work under limitations.</p>
 
 <p style="font-size:20px">Being able to share our work with the local game development community and players at events has been deeply fulfilling, and a fantastic environment to learn, grow and network in. Overall, having the opportunity to work and collaborate with people from so many different disciplines is what makes game development so compelling so me.</p>
+
+<p style="font-size:20px">Working on <i><a href="/6Degrees" target="_blank">6Degrees</a></i> at Code Blue Games has helped strengthen my programming skills further. Compared to prior projects where my attention was split between multiple disciplines, my role on the team here has allowed me to focus in on my programming. I've had the opportunity to work amoungst industry veterans, and have learned a great deal from their guidance when it comes to optimizing systems, and understanding how niche parts of Unreal Engine function.
+</p>
 </center>
